@@ -70,7 +70,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose }) => {
     <div className="chat-window">
       <div className="chat-header">
         <h2>Support Chat</h2>
-        <button onClick={onClose}>✖️</button>
+        
       </div>
       <div className="messages-container">
         {messages.map((msg, index) => (
